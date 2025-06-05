@@ -10,5 +10,15 @@ const obj={
 // console.log(obj["age"])
 // console.log(obj[mySymbol])
 // console.log(typeof mySymbol)
-obj.name="Rani"
+//obj.name="Rani"
 console.log(obj)
+//function
+obj.greet=function(){
+    console.log("Hi users")
+}
+obj.greet1=function(){
+    console.log(`Hi,${this.name}`)
+}
+
+console.log(obj.greet())
+console.log(obj.greet1())
