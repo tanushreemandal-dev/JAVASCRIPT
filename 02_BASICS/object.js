@@ -8,11 +8,11 @@ const obj={
     LogIndays:["Monday","Tuesday","Wednesday"],
     [mySymbol]:"key1"
 }
-// console.log(obj.name)
-// console.log(obj["age"])
-// console.log(obj[mySymbol])
-// console.log(typeof mySymbol)
-//obj.name="Rani"
+console.log(obj.name)
+console.log(obj["age"])
+console.log(obj[mySymbol])
+console.log(typeof mySymbol)
+obj.name="Rani"
 console.log(obj)
 //function
 obj.greet=function(){
