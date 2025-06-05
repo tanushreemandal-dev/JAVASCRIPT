@@ -1,3 +1,5 @@
+// OBJECT LITERALS
+
 const mySymbol=Symbol("key1");
 const obj={
     name:"Abc",
