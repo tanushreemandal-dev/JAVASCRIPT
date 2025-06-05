@@ -28,13 +28,13 @@ const obj8={...obj6,...obj7}
 // console.log(Object.keys(obj1))
 // console.log(Object.values(obj1))
 // console.log(Object.entries(obj1))
-//console.log(obj1.hasOwnProperty("name"))
+// console.log(obj1.hasOwnProperty("name"))
 
-//DEREFERENCING
+//DESTRUCTURING OF OBJECTS
 const course={
     name:"abc",
     amount:123,
     instructor:"tgh"
 }
-const {instructor:ins}=course
+const {instructor:ins} = course
 console.log(ins)
