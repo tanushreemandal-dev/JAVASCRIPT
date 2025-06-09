@@ -45,11 +45,14 @@
 //     console.log(i)
 //     i++
 // }
- let i = 1;
-do {
-  console.log(i);
-  i++
-} while (i == 0);
-
+//  let i = 1;
+// do {
+//   console.log(i);
+//   i++
+// } while (i == 0);
+let arr=[1,2,3,4,5,6]
+for (const i of arr) {
+  console.log(i)
+}
  
 
