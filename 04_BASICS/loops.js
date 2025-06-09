@@ -6,5 +6,5 @@ for(let j=0;j<=10;j++){
 }
 const res=mul(2)
 console.log(res)
-
+ 
 
