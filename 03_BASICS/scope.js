@@ -21,7 +21,7 @@
 // }
 // one()
 // IIFE
- (function print(){
+ (function print(){  //named iife
     console.log("T")
 })();
 
