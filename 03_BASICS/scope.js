@@ -25,6 +25,10 @@
     console.log("T")
 })();
 
+((name)=>{
+    console.log(`Name is ${name}`)
+})("hitesh");
+
 (()=>{
     console.log("p")
 })();
