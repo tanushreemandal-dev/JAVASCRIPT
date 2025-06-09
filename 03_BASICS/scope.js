@@ -20,3 +20,7 @@ function one(){
     two()
 }
 one()
+//IIFE
+(function print(){
+    console.log("T")
+})()
