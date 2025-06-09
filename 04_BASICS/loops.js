@@ -18,18 +18,24 @@
 // const res1=mul(2)
 // console.log(res1)
 
-for(let i=0;i<=10;i++){
-    if(i==5){
-        continue
-    }
-    console.log(i)
-}
+// for(let i=0;i<=10;i++){
+//     if(i==5){
+//         continue
+//     }
+//     console.log(i)
+// }
 
-for(let i=0;i<=10;i++){
-    if(i==5){
-        break
-    }
+// for(let i=0;i<=10;i++){
+//     if(i==5){
+//         break
+//     }
+//     console.log(i)
+// }
+
+let i=0
+while(i<=5){
     console.log(i)
+    i++
 }
  
 
